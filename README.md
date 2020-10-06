@@ -68,7 +68,7 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
 <details>
 <summary>Click to expand!</summary>
 
-![alt text](https://github.com/maleneH/LSD--TeamA/blob/master/LDM.png)
+![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/logicalDataModel.png)
 
 This model describes a booking system in which a ”Guest” can book one or multiple vacant rooms with 1 or multiple nr of guests attached.
 There are different types of rooms which are attached to “Hotel”(s). They are all a part of a “HotelChain” identified by a “threeLetterCode” (a combination of Country code and three letters derived from “Hotel” name).
@@ -86,7 +86,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 <details>
 <summary>Click to expand!</summary>
 
-![alt text](https://github.com/maleneH/LSD--TeamA/blob/master/UCD.png)
+![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/useCaseDiagram.png)
 
 </details>
 
@@ -236,14 +236,14 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 <details>
 <summary>Click to expand!</summary>
 
-### SD1
+### Sequence Diagram 1
 
 
-![alt text](https://github.com/maleneH/LSD--TeamA/blob/master/Sequence%20Diagrams/SD_UseCase1.png)
+![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram1.png)
 
-### SD2
+### Sequence Diagram 2
 
-![alt text](https://github.com/maleneH/LSD--TeamA/blob/master/Sequence%20Diagrams/SD_UseCase2.png)
- 
+![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram2.png)
+
 
 </details>
