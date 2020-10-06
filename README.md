@@ -88,7 +88,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 <details>
 <summary>Click to expand!</summary>
 
-![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/useCaseDiagram.png)
+![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/UseCaseDiagram.png)
 
 
 
