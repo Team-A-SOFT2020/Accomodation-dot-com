@@ -68,7 +68,7 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
 <details>
 <summary>Click to expand!</summary>
 
-![alt text] (https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/logicalDataModel.png)
+![alt text] (https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/LogicalDataModel.png)
 
 This model describes a booking system in which a ”Guest” can book one or multiple vacant rooms with 1 or multiple nr of guests attached.
 There are different types of rooms which are attached to “Hotel”(s). They are all a part of a “HotelChain” identified by a “threeLetterCode” (a combination of Country code and three letters derived from “Hotel” name).
