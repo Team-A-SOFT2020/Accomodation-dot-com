@@ -1,9 +1,9 @@
-LDS Project, case 4
+_LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da1526ac-case-4.pdf)_
 
-# Accomodation-dot-com
+# **Accomodation-dot-com**
 
 
-## Glossary
+## **Glossary**
 
 <details>
   <summary>Click to expand!</summary>
@@ -64,7 +64,7 @@ LDS Project, case 4
 
 </details>
 
-## Logical Data Model
+## **Logical Data Model**
 
 <details>
   <summary>Click to expand!</summary>
@@ -81,7 +81,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
 </details>
 
-## Use Case Diagram
+## **Use Case Diagram**
 
 <details>
   <summary>Click to expand!</summary>
@@ -90,7 +90,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
 </details>
 
-## Use Cases
+## **Use Cases**
 
 <br/>
 
