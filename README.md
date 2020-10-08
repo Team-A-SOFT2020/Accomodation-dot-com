@@ -178,7 +178,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
 
 
-**Postcondition (Success guaranties)** A room is booked
+**Postcondition (Success guaranties)** A booking is created
 
 
 
@@ -189,7 +189,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
 **Name:** Show booking
 
-**Description:** Show bookings made by the guest
+**Description:** A guest can see booking details of her booking(s)
 
 **Primary Actor:** Guest
 
@@ -197,14 +197,22 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
 **Main Succes Scenario:**
 
-1.	Guest fills in booking id
+1.	Guest fills in passport number
 
-2.	System shows booking details
+2.	System shows existing bookings
+
+3.  Guest selects a booking
+
+4.  System shows booking details
 
 
+**Extensions:**
 
+**2a:** There are no bookings connected to the given passport number
+  1. System displays “No bookings error”
+  2. Guest returns to MSS 1
 
-**Postcondition (Success guaranties)** Bookings made my guest is displayed.
+**Postcondition (Success guaranties)** Bookingdetails are displayed
 
 
 
@@ -214,7 +222,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
 **Name:** Cancel Booking
 
-**Description:** Cancels a booking
+**Description:** A guest cancels a booking
 
 **Primary Actor:** Guest
 
@@ -224,9 +232,13 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
 1.	System displays current bookings (UC3)
 
-2.	Guest selects room to cancel
+2.	Guest cancels booking
 
-3.	System confirms cancelation
+3.  System asks for confirmation
+
+4.	Guest confirms cancelation
+
+5.  System confirms cancelation
 
 
 **Postcondition (Success guaranties)** A room is canceled
@@ -253,6 +265,9 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
 ![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram3.png)
 
+### Sequence Diagram 4
+
+![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram4.png)
 
 
 
