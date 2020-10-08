@@ -65,8 +65,7 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
 
 ## **Logical Data Model**
 
-<details>
-<summary>Click to expand!</summary>
+
 
 ![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/LogicalDataModel.png)
 
@@ -80,62 +79,55 @@ This model describes a booking system in which a ”Guest” can book one or mul
 There are different types of “Room”(s) which are attached to “Hotel”(s). They are all a part of a “HotelChain” identified by a “threeLetterCode” (a combination of Country code and three letters derived from “Hotel” name).
 “TravelAgency” and “Employee” are displayed and greyed out for future implementation.
 
-</details>
 
 
 ## **Use Case Diagram**
 
-<details>
-<summary>Click to expand!</summary>
+
 
 ![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/UseCaseDiagram.png)
 
 
-
-</details>
-
 ## **Use Cases**
 
-<details>
-<summary>Click to expand!</summary>
 
-
-<br/>
 
 ### UC1
 
-<br/>
 
-**Name:** Show list of vacant rooms
+    Name: Show list of vacant rooms
 
-**Description:** Show a list of vacant rooms
+    Description: Show a list of vacant rooms
 
-**Primary Actor:** Guest
-
-**Preconditions:** none
-
-**Main Succes Scenario:**
-  1. Guest selects city, date and number of guests
-  2. System shows list of hotels with vacant rooms
-  3. Guest selects a hotel
-  4. System shows list of vacant rooms
-
-<br/>
-
-**Extensions:**
-
-**2a:** No hotels have vacant rooms that meet (all) the criteria.
-
-  1. System displays "No vacant rooms are available error"
-  2. Guest returns to MSS 1
+    Primary Actor: Guest
 
 
-**4a:** Hotel no longer has available room(s)
-  1. System displays "Hotel is no longer available error"
-  2. Guest returns to MSS 3
+
+    Preconditions: none
+
+    Main Succes Scenario:
+      1. Guest selects city, date and number of guests
+      2. System shows list of hotels with vacant rooms
+      3. Guest selects a hotel
+      4. System shows list of vacant rooms
 
 
-**Postcondition (Success guaranties)** A list of vacant rooms is displayed
+
+    Extensions:
+
+      2a: No hotels have vacant rooms that meet (all) the criteria.
+
+          1. System displays "No vacant rooms are available error"
+          2. Guest returns to MSS 1
+
+
+      4a: Hotel no longer has available room(s)
+
+          1. System displays "Hotel is no longer available error"
+          2. Guest returns to MSS 3
+
+
+    Postcondition (Success guaranties): A list of vacant rooms is displayed
 
 
 
@@ -143,114 +135,107 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
 ### UC2
 
-<br/>
 
-**Name:** Create Booking
+    Name: Create Booking
 
-**Description:** Create a booking
+    Description: Create a booking
 
-**Primary Actor:** Guest
+    Primary Actor: Guest
 
-**Preconditions:** none
+    Preconditions: none
 
-**Main Succes Scenario:**
+    Main Succes Scenario:
 
-1.	Guest searches for list of vacant rooms (UC1)
+      1.	Guest searches for list of vacant rooms (UC1)
 
-2.	Guest selects room to book
+      2.	Guest selects room to book
 
-3. 	System asks for passport number
+      3. 	System asks for passport number
 
-4.	Guest fills in passport number and confirms booking
+      4.	Guest fills in passport number and confirms booking
 
-5.	System confirms booking
-
-
-**Extensions:**
-
-**2a:** Room is no longer available
-  1. System displays “Room unavailable error”
-  2. System updates list of vacant rooms
-  3. Guest returns to MSS 2
+      5.	System confirms booking
 
 
+    Extensions:
+
+      2a: Room is no longer available
+
+          1. System displays “Room unavailable error”
+          2. System updates list of vacant rooms
+          3. Guest returns to MSS 2
 
 
 
-
-**Postcondition (Success guaranties)** A booking is created
+    Postcondition (Success guaranties)** A booking is created
 
 
 
 
 ### UC3
 
-<br/>
-
-**Name:** Show booking
-
-**Description:** A guest can see booking details of her booking(s)
-
-**Primary Actor:** Guest
-
-**Preconditions:** none
-
-**Main Succes Scenario:**
-
-1.	Guest fills in passport number
-
-2.	System shows existing bookings
-
-3.  Guest selects a booking
-
-4.  System shows booking details
 
 
-**Extensions:**
+    Name: Show booking
 
-**2a:** There are no bookings connected to the given passport number
-  1. System displays “No bookings error”
-  2. Guest returns to MSS 1
+    Description: A guest can see booking details of her booking(s)
 
-**Postcondition (Success guaranties)** Bookingdetails are displayed
+    Primary Actor: Guest
+
+    Preconditions: none
+
+    Main Succes Scenario:
+
+      1.  Guest fills in passport number
+
+      2.  System shows existing bookings
+
+      3.  Guest selects a booking
+
+      4.  System shows booking details
+
+
+    Extensions:
+
+      2a: There are no bookings connected to the given passport number
+
+        1. System displays “No bookings error”
+        2. Guest returns to MSS 1
+
+    Postcondition (Success guaranties) Bookingdetails are displayed
 
 
 
 ### UC4
 
-<br/>
 
-**Name:** Cancel Booking
+    Name: Cancel Booking
 
-**Description:** A guest cancels a booking
+    Description: A guest cancels a booking
 
-**Primary Actor:** Guest
+    Primary Actor: Guest
 
-**Preconditions:** none
+    Preconditions: none
 
-**Main Succes Scenario:**
+    Main Succes Scenario:
 
-1.	System displays current bookings (UC3)
+      1.	System displays current bookings (UC3)
 
-2.	Guest cancels booking
+      2.	Guest cancels booking
 
-3.  System asks for confirmation
+      3.  System asks for confirmation
 
-4.	Guest confirms cancelation
+      4.	Guest confirms cancelation
 
-5.  System confirms cancelation
-
-
-**Postcondition (Success guaranties)** A room is canceled
+      5.  System confirms cancelation
 
 
-</details>
+    Postcondition (Success guaranties)** A room is canceled
+
 
 
 ## **Sequence Diagrams**
 
-<details>
-<summary>Click to expand!</summary>
 
 ### Sequence Diagram 1
 
@@ -268,7 +253,3 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 ### Sequence Diagram 4
 
 ![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram4.png)
-
-
-
-</details>
