@@ -249,5 +249,11 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
 ![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram2.png)
 
+### Sequence Diagram 3
+
+![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram3.png)
+
+
+
 
 </details>
