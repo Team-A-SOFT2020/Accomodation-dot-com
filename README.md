@@ -5,7 +5,7 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
 ## **Glossary**
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Nouns</summary>
 
 ### **Nouns**
 
