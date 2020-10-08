@@ -100,8 +100,8 @@ number of guests</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-findVacantHotels (String city, Date date, 
-int numberOfGuests)</panel_attributes>
+findVacantHotels (city: String, date: Date, 
+numberOfGuests: int)</panel_attributes>
     <additional_attributes>460.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -160,8 +160,8 @@ select hotel</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-findVacantRooms (int hotelNumber, Date date, 
-int numberOfGuests)</panel_attributes>
+findVacantRooms (hotelNumber: int, date: Date, 
+numberOfGuests: int)</panel_attributes>
     <additional_attributes>460.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>

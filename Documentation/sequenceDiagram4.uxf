@@ -26,7 +26,7 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>600</x>
+      <x>472</x>
       <y>104</y>
       <w>80</w>
       <h>24</h>
@@ -48,7 +48,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>632</x>
+      <x>504</x>
       <y>120</y>
       <w>24</w>
       <h>264</h>
@@ -87,7 +87,7 @@
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-select booking</panel_attributes>
+cancel booking</panel_attributes>
     <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -104,10 +104,10 @@ select booking</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>632</x>
-      <y>152</y>
+      <x>504</x>
+      <y>272</y>
       <w>16</w>
-      <h>64</h>
+      <h>56</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -116,19 +116,19 @@ select booking</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>56</x>
-      <y>200</y>
+      <y>176</y>
       <w>216</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-system asks for confirmation</panel_attributes>
+confirm cancel</panel_attributes>
     <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>56</x>
-      <y>248</y>
+      <y>240</y>
       <w>216</w>
       <h>32</h>
     </coordinates>
@@ -140,36 +140,13 @@ confirm cancelation</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>264</x>
-      <y>144</y>
-      <w>384</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;-
-cancel booking (bookingId: int)</panel_attributes>
-    <additional_attributes>460.0;20.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>632</x>
-      <y>272</y>
-      <w>16</w>
-      <h>56</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>264</x>
       <y>304</y>
-      <w>384</w>
+      <w>256</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 bookingIsCanceled</panel_attributes>
-    <additional_attributes>10.0;20.0;460.0;20.0</additional_attributes>
+    <additional_attributes>10.0;20.0;300.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -187,24 +164,12 @@ system confirms cancelation</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>264</x>
-      <y>184</y>
-      <w>384</w>
-      <h>32</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;.
-confirmCancel</panel_attributes>
-    <additional_attributes>10.0;20.0;460.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>264</x>
-      <y>264</y>
-      <w>384</w>
+      <y>256</y>
+      <w>256</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-cancelConfirmed</panel_attributes>
-    <additional_attributes>460.0;20.0;10.0;20.0</additional_attributes>
+cancel booking (bookingId: int)</panel_attributes>
+    <additional_attributes>300.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
