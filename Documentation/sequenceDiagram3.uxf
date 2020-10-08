@@ -5,7 +5,7 @@
     <id>UMLActor</id>
     <coordinates>
       <x>32</x>
-      <y>56</y>
+      <y>72</y>
       <w>48</w>
       <h>80</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>224</x>
-      <y>104</y>
+      <y>120</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -27,7 +27,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>600</x>
-      <y>104</y>
+      <y>120</y>
       <w>80</w>
       <h>24</h>
     </coordinates>
@@ -38,31 +38,31 @@
     <id>Relation</id>
     <coordinates>
       <x>256</x>
-      <y>120</y>
+      <y>136</y>
       <w>24</w>
-      <h>136</h>
+      <h>296</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;350.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>632</x>
-      <y>120</y>
+      <y>136</y>
       <w>24</w>
-      <h>136</h>
+      <h>296</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;350.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>256</x>
-      <y>136</y>
+      <y>152</y>
       <w>16</w>
-      <h>88</h>
+      <h>240</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -71,32 +71,43 @@
     <id>Relation</id>
     <coordinates>
       <x>48</x>
-      <y>120</y>
+      <y>136</y>
       <w>24</w>
-      <h>136</h>
+      <h>296</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;350.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>56</x>
-      <y>128</y>
+      <y>144</y>
       <w>216</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-fill in booking id</panel_attributes>
+fill in passport number</panel_attributes>
     <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>48</x>
-      <y>136</y>
+      <y>152</y>
       <w>16</w>
-      <h>96</h>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>632</x>
+      <y>168</y>
+      <w>16</w>
+      <h>64</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -104,8 +115,56 @@ fill in booking id</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
+      <x>56</x>
+      <y>216</y>
+      <w>216</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+list of bookings</panel_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
       <x>264</x>
-      <y>144</y>
+      <y>200</y>
+      <w>384</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+bookings[*]</panel_attributes>
+    <additional_attributes>10.0;20.0;460.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>160</y>
+      <w>384</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+findBookings (passportNumber: String)</panel_attributes>
+    <additional_attributes>460.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>56</x>
+      <y>280</y>
+      <w>216</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+select booking</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>304</y>
       <w>384</w>
       <h>32</h>
     </coordinates>
@@ -117,7 +176,7 @@ findBooking (bookingId: int)</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>632</x>
-      <y>152</y>
+      <y>312</y>
       <w>16</w>
       <h>64</h>
     </coordinates>
@@ -128,19 +187,19 @@ findBooking (bookingId: int)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>264</x>
-      <y>184</y>
+      <y>352</y>
       <w>384</w>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-</panel_attributes>
+bookingDetails</panel_attributes>
     <additional_attributes>10.0;20.0;460.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>56</x>
-      <y>200</y>
+      <y>368</y>
       <w>216</w>
       <h>32</h>
     </coordinates>
