@@ -88,7 +88,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 ![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/UseCaseDiagram.png)
 
 
-## **Use Cases**
+## **Use Cases and Sequence Diagrams**
 
 
 
@@ -130,6 +130,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
     Postcondition (Success guaranties): A list of vacant rooms is displayed
 
 
+![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram1.png)
 
 
 
@@ -170,7 +171,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
     Postcondition (Success guaranties)** A booking is created
 
 
-
+![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram2.png)
 
 ### UC3
 
@@ -205,6 +206,8 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
     Postcondition (Success guaranties) Bookingdetails are displayed
 
 
+![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram3.png)
+
 
 ### UC4
 
@@ -232,24 +235,5 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
     Postcondition (Success guaranties)** A room is canceled
 
-
-
-## **Sequence Diagrams**
-
-
-### Sequence Diagram 1
-
-
-![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram1.png)
-
-### Sequence Diagram 2
-
-![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram2.png)
-
-### Sequence Diagram 3
-
-![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram3.png)
-
-### Sequence Diagram 4
 
 ![alt text](https://github.com/Team-A-SOFT2020/Accomodation-dot-com/blob/main/Documentation/sequenceDiagram4.png)
