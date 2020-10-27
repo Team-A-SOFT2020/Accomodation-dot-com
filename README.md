@@ -32,15 +32,20 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
    #### **Backend TEAM**
 
     - Christian Falk Moustesgård (officer)
+    
     - Kimon Togrou
+    
     - Tobias Frehr
 
 
  **Frontend TEAM**
 
     - Malene Hansen (officer)
+    
     - Sebastian Harvej
+    
     - Mads Meinert Andersen
+    
     - Benjamin Østerø Højgaard
 
 
