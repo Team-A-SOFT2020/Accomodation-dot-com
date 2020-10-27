@@ -5,8 +5,11 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
 
 
 1. [Team A](#Team-A)
+
   1. [Group Members](###Group-Members)
-1. [Glossary](##Glossary)
+  
+2. [Glossary](##Glossary)
+
   1. [Nouns](###Nouns)
   1. [Logical Data Model](##Logical-Data-Model)
   1. [Use Case Diagram](##Use-Case-Diagram)
@@ -15,6 +18,7 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
     1. [UC 2: Create Booking](###UC2)
     1. [UC 3: Show booking](###UC3)
     1. [UC 4: Cancel Booking](###UC4)
+  
 
 
 ## **TeamA**
