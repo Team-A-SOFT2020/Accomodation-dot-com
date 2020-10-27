@@ -2,23 +2,19 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
 
 # **Accomodation dot com**
 
-
-
-1. [Team A](#Team-A)
-
-  1. [Group Members](###Group-Members)
-  
-2. [Glossary](##Glossary)
-
-  1. [Nouns](###Nouns)
-  1. [Logical Data Model](##Logical-Data-Model)
-  1. [Use Case Diagram](##Use-Case-Diagram)
-  1. [Use Cases and Sequence Diagrams](##Use-Cases-and-Sequence-Diagrams)
-    1. [UC 1: Show list of vacant rooms](###UC1)
-    1. [UC 2: Create Booking](###UC2)
-    1. [UC 3: Show booking](###UC3)
-    1. [UC 4: Cancel Booking](###UC4)
-  
+- [Team A](#Team-A)
+  * [Contract](##Contract)
+- [Contract](##Contract)
+    * [Glossary](##Glossary)
+    * [Nouns](###Nouns)
+    * [Logical Data Model](##Logical-Data-Model)
+    * [Use Case Diagram](##Use-Case-Diagram)
+    * [Use Cases and Sequence Diagrams](##Use-Cases-and-Sequence-Diagrams)
+      * [UC 1: Show list of vacant rooms](###UC1)
+      * [UC 2: Create Booking](###UC2)
+      * [UC 3: Show booking](###UC3)
+      * [UC 4: Cancel Booking](###UC4)
+ 
 
 
 ## **TeamA**
