@@ -3,8 +3,11 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
 # **Accomodation dot com**
 
   1. [Team A](#Team-A)
+  
     1. [Group Members](###Group-Members)
+    
   1. [Contract](##Contract)
+  
     1. [Glossary](##Glossary)
     1. [Nouns](###Nouns)
     1. [Logical Data Model](##Logical-Data-Model)
@@ -31,21 +34,16 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
 
    #### **Backend TEAM**
 
-    - Christian Falk Moustesgård (officer)
-    
+    - Christian Falk Moustesgård (officer) 
     - Kimon Togrou
-    
     - Tobias Frehr
 
 
  **Frontend TEAM**
 
     - Malene Hansen (officer)
-    
     - Sebastian Harvej
-    
     - Mads Meinert Andersen
-    
     - Benjamin Østerø Højgaard
 
 
