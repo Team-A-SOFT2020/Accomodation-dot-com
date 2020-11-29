@@ -192,7 +192,7 @@ There are different types of “Room”(s) which are attached to “Hotel”(s).
 
       4.	Guest fills in passport number and confirms booking
 
-      5.	System confirms booking
+      5.	System shows and confirms booking
 
 
     Extensions:
