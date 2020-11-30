@@ -22,12 +22,6 @@ _LSD Project, Team A, [case 4](https://datsoftlyngby.github.io/soft2020fall/reso
 
 
 
-# Handover Documentation
- 
-Both Teams have used the contract to follow the ... classes/methods...
-
-The contract is hosted on ? jar... othe information?
-
 
 ## How to use/setup
 
