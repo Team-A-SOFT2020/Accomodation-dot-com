@@ -39,6 +39,10 @@ The project is deployed on Amazon AWS. ... We use GitHub Actions for Continous I
 
 ## Branching Strategy
 
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
 **Branches:**
   * Main
     * Release
@@ -52,7 +56,33 @@ The project is deployed on Amazon AWS. ... We use GitHub Actions for Continous I
 
 ## Monitoring & Logging
 
-...
+You can monitor the state of the EC2 instance (vm) by navigating through these steps:
+
+ 1. [Enter this link](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fconsole%2Fhome%3Fstate%3DhashArgs%2523%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fhomepage&forceMobileApp=0&code_challenge=aOCau_UoY-aaNCYGLBhpaHNrwdWHHrvzUI0emQm4xMs&code_challenge_method=SHA-256)
+ 2. Login as IAM user with the following credentials: 
+  User name: ReadOnlyUser
+  Password: jorzek-kiCre0-mufzyv
+ 3. In the search field, search for and select "EC2"
+ 4. In the "Resources" panel, select "Instances (running)"
+ 5. In the table with instances click on "Instance ID"
+ 6. Scroll down and select the "Monitoring" tab
+ 7. Sit back and enjoy
+ 
+
+
+
+
+**You can follow the logs on the following links: **
+
+Frontend:
+
+http://ec2-3-139-98-176.us-east-2.compute.amazonaws.com/logs
+
+Backend:
+
+http://ec2-18-224-135-52.us-east-2.compute.amazonaws.com/logs
+
+
 
 ## SLA 
 
