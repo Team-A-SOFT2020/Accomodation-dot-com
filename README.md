@@ -1,4 +1,4 @@
-_LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da1526ac-case-4.pdf)_
+_LSD Project, Team A, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da1526ac-case-4.pdf)_
 
 # CASE 4: ACCOMODATION DOT COM
 
