@@ -17,29 +17,38 @@ _LSD Project, Team A, [case 4](https://datsoftlyngby.github.io/soft2020fall/reso
 * Christian Falk Moustesgård - <cph-cm267@cphbusiness.dk>  ***(officer)***
 
 
-**Link to deployed solution: http://ec2-3-139-98-176.us-east-2.compute.amazonaws.com**
-* Note: If your browser adds an 's' to http(s), then manually delete it, and access the URL again, as the solution does not currently work over https.
+**Link to deployed solution: http://ec2-3-139-98-176.us-east-2.compute.amazonaws.com/**
 
 
 
 
-
-## How to use/setup
+## How to use
 
 The frontend project is a REST API, that ... It consists of ....
 The Backend...
 
-How to interact with it
+
+We have created a Postman Collection, that you can use to interact with our application.
 
 
 ## CI/CD
 
+The project is deployed on Amazon AWS. ... We use GitHub Actions for Continous Integration and Deployment.
 
 ...
 
 ## Branching Strategy
 
-...
+**Branches:**
+  * Main
+    * Release
+      * Developing
+        * Various feature brances
+        * 
+        
+        
+ 
+      
 
 ## Monitoring & Logging
 
