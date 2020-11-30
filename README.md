@@ -29,7 +29,7 @@ Both Teams have used the contract to follow the ... classes/methods...
 The contract is hosted on ? jar... othe information?
 
 
-## How to use
+## How to use/setup
 
 The frontend project is a REST API, that ... It consists of ....
 The Backend...
@@ -39,7 +39,8 @@ How to interact with it
 
 ## CI/CD
 
-For continuous integration and continuous deployment, we have used ...
+
+
 
 ## Branching Strategy
 
