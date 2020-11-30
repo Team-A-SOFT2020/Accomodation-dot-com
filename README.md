@@ -24,21 +24,31 @@ _LSD Project, [case 4](https://datsoftlyngby.github.io/soft2020fall/resources/da
 
 # Handover Documentation
  
+Both Teams have used the contract to follow the ... classes/methods...
 
-The contract is what both teams have been using to follow the same structure of classes and methods. The contract is hosted on packagecloud and is used as a dependency in both projects.
+The contract is hosted on ? jar... othe information?
+
 
 ## How to use
 
-The frontend project is a REST API, that allows for a client to sent requests to it. It was built using Spring Boot, and takes in JSON requests.
+The frontend project is a REST API, that ... It consists of ....
+The Backend...
 
-We have created a Postman Collection, that can be used to send requests and receive responses.
+How to interact with it
+
 
 ## CI/CD
+
 For continuous integration and continuous deployment, we have used ...
 
 ## Branching Strategy
 
+...
 
 ## Monitoring & Logging
 
+...
+
 ## SLA 
+
+...
