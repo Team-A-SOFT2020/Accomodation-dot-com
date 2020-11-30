@@ -33,26 +33,36 @@ We have created a Postman Collection, that you can use to interact with our appl
 
 ## CI/CD
 
-The project is deployed on Amazon AWS. ... We use GitHub Actions for Continous Integration and Deployment.
+We chose GitHub Action as our Continous Integration and Deployment tool.
 
-...
+GitHub Actions builds and process a pipeline using actions through .yml files. 
+
+You can see our .yml file here: https://github.com/BenjaminHojgaard/Spring_CI_CD/blob/main/.github/workflows/aws.yml
+
+
+The (major) steps in the pipeline goes like this:
+
+ 1. Sets up java and builds the program using maven
+ 2. Creates a Docker Image
+ 3. Pushes it to AWS ECR (our remote Docker repository) 
+ 4. Publishes the Docker Image on an EC2 instance
+ 
+
+
+
 
 ## Branching Strategy
 
-Inline-style: 
+We chose the branching strategy called "Feature Branching". 
+
+
 ![alt text](https://github.com/Team-A-SOFT2020/Contract/blob/main/branching.png)
+*(image credit: https://dzone.com/articles/feature-branching-using-feature-flags-1
+)*
 
 
-**Branches:**
-  * Main
-    * Release
-      * Developing
-        * Various feature brances
-        * 
-        
-        
- 
-      
+
+
 
 ## Monitoring & Logging
 
