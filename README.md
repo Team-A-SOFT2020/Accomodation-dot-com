@@ -40,7 +40,7 @@ The project is deployed on Amazon AWS. ... We use GitHub Actions for Continous I
 ## Branching Strategy
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/Team-A-SOFT2020/Contract/blob/main/branching.png)
 
 
 **Branches:**
