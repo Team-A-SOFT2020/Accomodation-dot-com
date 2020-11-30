@@ -21,7 +21,7 @@ _LSD Project, Team A, [case 4](https://datsoftlyngby.github.io/soft2020fall/reso
 
 ## Project Contract
 
-You can see the project contract here 
+You can see the project contract here https://github.com/Team-A-SOFT2020/Contract/blob/main/CONTRACT.md
 
 
 ## How to use
@@ -95,4 +95,4 @@ http://ec2-18-224-135-52.us-east-2.compute.amazonaws.com/logs
 
 ## SLA 
 
-...
+https://github.com/Team-A-SOFT2020/Contract/blob/main/sla
