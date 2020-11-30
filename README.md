@@ -17,7 +17,7 @@ _LSD Project, Team A, [case 4](https://datsoftlyngby.github.io/soft2020fall/reso
 * Christian Falk Moustesgård - <cph-cm267@cphbusiness.dk>  ***(officer)***
 
 
-**Link to deployed solution: https://lsd-case-3-fe.herokuapp.com/**
+**Link to deployed solution: https://?????.com/**
 
 
 
