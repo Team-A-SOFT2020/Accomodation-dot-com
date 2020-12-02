@@ -95,4 +95,4 @@ http://ec2-18-224-135-52.us-east-2.compute.amazonaws.com/logs
 
 ## SLA 
 
-https://github.com/Team-A-SOFT2020/Contract/blob/main/sla
+https://github.com/Team-A-SOFT2020/Contract/blob/main/SLA.md
