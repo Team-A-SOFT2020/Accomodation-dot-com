@@ -21,18 +21,19 @@ _LSD Project, Team A, [case 4](https://datsoftlyngby.github.io/soft2020fall/reso
 
 ## Project Links
 
-**Contract**
+#### Contract
 
 You can see the project contract here https://github.com/Team-A-SOFT2020/Contract/blob/main/CONTRACT.md
 
-**Frontend repository**
 
-https://github.com/BenjaminHojgaard/Spring_CI_CD
+#### Repositories:
 
 
-**Frontend repository**
+**Frontend repository:** https://github.com/BenjaminHojgaard/Spring_CI_CD
 
-https://github.com/BenjaminHojgaard/Spring_CI_CD
+**Contract repository:** https://github.com/Team-A-SOFT2020/Contract
+
+**Backend repository:** Contact backend officer Christian Falk Moustesgård for admission to Backend repository.
 
 
 ## How to use
