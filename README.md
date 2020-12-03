@@ -21,8 +21,7 @@ _LSD Project, Team A, [case 4](https://datsoftlyngby.github.io/soft2020fall/reso
 ## Project Links
 
 
-#### Link to deployed solution: http://ec2-3-139-98-176.us-east-2.compute.amazonaws.com/  \n
-
+#### Link to deployed solution: http://ec2-3-139-98-176.us-east-2.compute.amazonaws.com/  <br/>
 
 
 Link to project contract: https://github.com/Team-A-SOFT2020/Contract/blob/main/CONTRACT.md
