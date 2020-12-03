@@ -26,6 +26,7 @@ We aim to keep the response time below 250 milliseconds.
 If you account any problems, please report to one of the Team Officers:
 
 Malene Hansen - cph-mh357@cphbusiness.dk (Frontend officer)
+
 Christian Falk Moustesgård - cph-cm267@cphbusiness.dk (Backend officer) 
 
 
