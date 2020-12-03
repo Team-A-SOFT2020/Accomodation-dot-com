@@ -67,6 +67,7 @@ We chose the branching strategy called "Feature Branching".
 
 
 ![alt text](https://github.com/Team-A-SOFT2020/Contract/blob/main/branching.png)
+
 *(image credit: https://dzone.com/articles/feature-branching-using-feature-flags-1
 )*
 
