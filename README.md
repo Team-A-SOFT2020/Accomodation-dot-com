@@ -19,9 +19,20 @@ _LSD Project, Team A, [case 4](https://datsoftlyngby.github.io/soft2020fall/reso
 
 **Link to deployed solution: http://ec2-3-139-98-176.us-east-2.compute.amazonaws.com/**
 
-## Project Contract
+## Project Links
+
+**Contract**
 
 You can see the project contract here https://github.com/Team-A-SOFT2020/Contract/blob/main/CONTRACT.md
+
+**Frontend repository**
+
+https://github.com/BenjaminHojgaard/Spring_CI_CD
+
+
+**Frontend repository**
+
+https://github.com/BenjaminHojgaard/Spring_CI_CD
 
 
 ## How to use
