@@ -84,10 +84,11 @@ You can monitor the state of the EC2 instance (vm) by navigating through these s
 **You can follow the logs on the following links: **
 
 Frontend:
-
+[Frontend](http://ec2-3-139-98-176.us-east-2.compute.amazonaws.com/logs)
 http://ec2-3-139-98-176.us-east-2.compute.amazonaws.com/logs
 
 Backend:
+[Backend](http://ec2-18-224-135-52.us-east-2.compute.amazonaws.com/logs)
 
 http://ec2-18-224-135-52.us-east-2.compute.amazonaws.com/logs
 
