@@ -89,9 +89,7 @@ This model describes a booking system in which a ”Guest” can book one or mul
 There are different types of rooms which are attached to “Hotel”(s). They are all a part of a “HotelChain” identified by a “threeLetterCode” (a combination of Country code and three letters derived from “Hotel” name).
 “TravelAgency” and “Employee” are displayed and greyed out for future implementation.
 
-This model describes a booking system in which a ”Guest” can book one or multiple vacant rooms with 1 or multiple nr of guests.
-There are different types of “Room”(s) which are attached to “Hotel”(s). They are all a part of a “HotelChain” identified by a “threeLetterCode” (a combination of Country code and three letters derived from “Hotel” name).
-“TravelAgency” and “Employee” are displayed and greyed out for future implementation.
+
 
 
 
