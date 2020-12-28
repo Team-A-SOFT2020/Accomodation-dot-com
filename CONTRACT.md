@@ -238,11 +238,11 @@ There are different types of rooms which are attached to “Hotel”(s). They ar
 
       2.	Guest cancels booking
       
-      3. System asks for confirmation
+      3.    System asks for confirmation
 
       4.	Guest confirms cancelation
       
-      5. System confirms cancelation
+      5.    System confirms cancelation
 
 
     Postcondition (Success guaranties)** A room is canceled
