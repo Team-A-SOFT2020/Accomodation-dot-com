@@ -237,11 +237,11 @@ There are different types of rooms which are attached to “Hotel”(s). They ar
       1.	System displays current bookings (UC3)
 
       2.	Guest cancels booking
-
+      
       3. System asks for confirmation
 
       4.	Guest confirms cancelation
-
+      
       5. System confirms cancelation
 
 
