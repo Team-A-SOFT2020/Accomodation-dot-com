@@ -32,7 +32,7 @@ Link to project contract: https://github.com/Team-A-SOFT2020/Contract/blob/main/
 
 Frontend repository: https://github.com/BenjaminHojgaard/Spring_CI_CD
 
-Contract repository: https://github.com/Team-A-SOFT2020/Contract
+Contract repository: https://github.com/BenjaminHojgaard/Contract_Accommodation/tree/master/src/main/java/dto
 
 Backend repository: Contact backend officer Christian Falk Moustesgård for admission to Backend repository.
 
